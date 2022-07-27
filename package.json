@@ -19,7 +19,8 @@
     "build:pre": "cross-env REACT_APP_BUILD_ENV=development react-scripts build",
     "build:prod": "cross-env REACT_APP_BUILD_ENV=production react-scripts build",
     "publish:pre": "sh scripts/publish.sh pre",
-    "publish:prod": "sh scripts/publish.sh prod"
+    "publish:prod": "sh scripts/publish.sh prod",
+    "tag": "sh scripts/tag.sh"
   },
   "eslintConfig": {
     "extends": [
